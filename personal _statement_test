@@ -2,7 +2,7 @@ import openai
 
 openai.api_key = "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"
 
-prompt = "Write a personal statement by using these information. \'Grew up in different countries and was \',\'Year 11 Student\',\'Joined Garden international school in Year 4\', \'Passionate about STEM\',\'Looking forward to improving as an individual person\', \'hope to contribute to the school community in a positive way\'"
+prompt = "Write a personal statement by using these information. \'Year 11 Student\',\'Joined Garden international school in Year 4\', \'Passionate about STEM\',\'Looking forward to improving as an individual person\', \'hope to contribute to the school community in a positive way\'"
 
 completions = openai.Completion.create(
     engine="text-davinci-002",
